@@ -10,7 +10,7 @@
 }
 
 html {
-    font-size: 92.5%;
+    font-size: 90%;
 }
 
 body {
@@ -40,37 +40,42 @@ header .container {
     /* justify-content: space-between; */
 }
 
-.nav {
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav img {
+nav img {
     width: 3em;
     margin-right: 2em;
 }
 
-.nav ol {
+nav ol {
     list-style-type: none;
     display: flex;
     gap: 1em;
 }
 
-.nav ol li  {
-    color: aqua;
+nav ol li  {
+    color: gray;
 }
-.nav .login{
-
+/* li .login{
 color: grey;
+margin-left: auto;
+} */
+nav ol li:last-child  {
+    color:gray;
+    margin-left: auto;
 }
-
 
 /* big title */
 
 section .big_title {
-    padding: 3em;
+    padding: 0 3em 0 3em;
     display: flex;
+    justify-content: center;
+    gap: 10%;    
 }
 
 .big_title h2 {
@@ -86,11 +91,15 @@ section .big_title {
     color: #fff;
     border-radius: 5em; 
 } 
+.groupe{
+    display: flex;
+    flex-direction: column;
+}
 
 .intersection{
-    align-conten;
+   
     height: 6em;
-    text-align: center;
+    /* text-align: center; */
    display: flex;
     justify-content: center;
   
