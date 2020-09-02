@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 1.6em;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -43,7 +43,7 @@ header .container {
 .nav {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .nav img {
@@ -88,11 +88,12 @@ section .big_title {
 } 
 
 .intersection{
+    align-conten;
     height: 6em;
     text-align: center;
-    /* display: flex;
+   display: flex;
     justify-content: center;
-    align-items: center; */
+  
    color: chocolate;
 }
 
@@ -141,12 +142,12 @@ article p {
 
 
 /* .button .container {
-    height: 30rem;
-    padding: 5rem 3rem;
+    height: 30em;
+    padding: 5em 3em;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 5em;
 } */
 
 .button {
@@ -171,7 +172,7 @@ article p {
 }
 
 
-/********************* FOOTER **************/
+/* FOOTER */
 
 footer   {
     color: #fff;
