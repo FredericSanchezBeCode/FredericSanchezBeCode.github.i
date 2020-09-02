@@ -57,8 +57,9 @@ a {
 }
 
 .nav ol {
+    list-style-type: none;
     display: flex;
-    gap: 2rem;
+    gap: 2em;
 }
 
 .nav ol li  {
@@ -67,12 +68,12 @@ a {
 
 
 
-.hero {
+/* .hero {
     /* background: var(--color-primary); */
 }
 
 /************  SECTION HERO   **************/
-
+/* 
 .hero .container {
     padding: 5rem;
     display: grid;
@@ -106,8 +107,8 @@ a {
     background: var(--color-secondary);
     color: #fff;
     border: 1px solid #fff;
-    border-radius: 1rem;
-}
+    border-radius: 1rem; */
+} */
 
 /******** INTERSECTION **********/
 
@@ -123,33 +124,35 @@ a {
 
 /****** CARDS *********/
 
-.cards {
-    background: var(--color-primary);
-    color: #fff;
+section {
+    background-color: cyan; 
+}
+.container{
+     flex-direction: row wrap;
 }
 
-.cards .container {
-    padding: 3rem 0;
+article {
+    padding: 3em;
+    width: 40%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    flex-direction: row wrap;
+}
+article h3::before {
+        content: "\200B";
 }
 
-.cards__item {
-    padding: 3rem;
-}
-
-.cards__item h3 {
+article h3 {
     letter-spacing: 3px;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
-.cards__item p {
+article p {
     color: #eaeaea;
 }
 
 /***************************/
 
-.brands {
+/* .brands {
     background: #EFEFEF;
 }
 
@@ -158,7 +161,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 
 
@@ -179,13 +182,6 @@ a {
     border-radius: 1rem;
 }
 
-.orange {
-    background: var(--color-secondary);
-}
-
-.blue {
-    background: var(--color-primary-dark);
-}
 
 /********************* FOOTER **************/
 
@@ -198,9 +194,10 @@ footer   {
     justify-content: space-between;
 }
 
-.footer__left ul {
+.footer_left ol {
     display: flex;
-    gap: 2rem;
+    gap: 2em;
+    list-style-type: none;
 }
 .footer__left ul a {
     color: #fff;
